@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Bold Regular.ttf">
+            <string>GothamBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ActiveMembershipHeader" id="iN0-l3-epB" customClass="HomeSectionHeader" customModule="GymShim" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="29"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gf5-tc-njy">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTIVE MEMBERSHIPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csr-eZ-Cj6">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="13"/>
+                            <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Csr-eZ-Cj6" secondAttribute="bottom" id="6Vq-wM-s99"/>
+                        <constraint firstItem="Csr-eZ-Cj6" firstAttribute="top" secondItem="gf5-tc-njy" secondAttribute="top" id="Gd4-wu-hbS"/>
+                        <constraint firstItem="Csr-eZ-Cj6" firstAttribute="leading" secondItem="gf5-tc-njy" secondAttribute="leading" id="LgU-DJ-Rjc"/>
+                        <constraint firstAttribute="trailing" secondItem="Csr-eZ-Cj6" secondAttribute="trailing" id="qGm-8e-bei"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gf5-tc-njy" secondAttribute="bottom" id="I7m-9q-gch"/>
+                <constraint firstAttribute="trailing" secondItem="gf5-tc-njy" secondAttribute="trailing" constant="15" id="LAg-3d-Euf"/>
+                <constraint firstItem="gf5-tc-njy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="hDd-yV-1it"/>
+                <constraint firstItem="gf5-tc-njy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yxH-Tp-6Ef"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="labelActiveMembership" destination="Csr-eZ-Cj6" id="pcf-5T-haZ"/>
+            </connections>
+            <point key="canvasLocation" x="-59" y="-699.5"/>
+        </view>
+    </objects>
+</document>

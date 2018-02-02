@@ -1,0 +1,110 @@
+PODS:
+  - Alamofire (3.5.0)
+  - EZSwiftExtensions (1.5)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FSCalendar (2.7.9)
+  - Google/Analytics (3.1.0):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - IQKeyboardManagerSwift (4.0.5)
+  - JVFloatLabeledTextField (1.2.1)
+  - MIBadgeButton-Swift (0.4)
+  - ObjectMapper (1.5.0)
+  - QRCode (1.0)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+  - ResponsiveLabel (1.0.11)
+  - SDWebImage (3.8.0):
+    - SDWebImage/Core (= 3.8.0)
+  - SDWebImage/Core (3.8.0)
+  - Siren (0.9.5)
+  - Toast-Swift (1.4.0)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `3.5.0`)
+  - EZSwiftExtensions (from `https://github.com/goktugyil/EZSwiftExtensions.git`, branch `Swift2.3`)
+  - FSCalendar
+  - Google/Analytics
+  - IQKeyboardManagerSwift (= 4.0.5)
+  - JVFloatLabeledTextField
+  - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `swift2`)
+  - ObjectMapper (~> 1.2)
+  - QRCode (~> 1.0)
+  - RealmSwift (~> 1.1)
+  - ResponsiveLabel (~> 1.0.11)
+  - SDWebImage (= 3.8.0)
+  - Siren (from `https://github.com/ArtSabintsev/Siren.git`, branch `swift2.3`)
+  - Toast-Swift (~> 1.4.0)
+  - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 3.5.0
+  EZSwiftExtensions:
+    :branch: Swift2.3
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+  MIBadgeButton-Swift:
+    :branch: swift2
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+  Siren:
+    :branch: swift2.3
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 3.5.0
+  EZSwiftExtensions:
+    :commit: cf7ecf1fd5682cb1f10712641a0622d5e8298e6f
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+  MIBadgeButton-Swift:
+    :commit: a6717ca7eba9c03b20da73c9a865a84b2d4b91ff
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+  Siren:
+    :commit: 758680ad9138dfe7f147e7e81c5fbb4cf93e9b70
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  EZSwiftExtensions: fe78d7d4ac34f5c8c36415d4acee49ba67c9732a
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  IQKeyboardManagerSwift: 41fd3a45a2cdb2a0e031af697708a95b865068a1
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
+  ObjectMapper: 386645adca9d9d23b95eda43090b09d66444cf14
+  QRCode: 687a6e4fff9e7ea45199d11fe8a787baad2f2728
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+  ResponsiveLabel: 9e31c425ed082481faf2360689243bb0ec8f8b22
+  SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
+  Siren: a536a4fed41def10e540a9804b2a63a4b3634f6b
+  Toast-Swift: aa9f0120aa6f0b6186a1e7fce2797571be34d857
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: bfaa3001ec0dff6bfe5133aa0fb904c780f9c2a0
+
+COCOAPODS: 1.3.1

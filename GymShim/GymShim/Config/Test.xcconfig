@@ -1,0 +1,7 @@
+//
+//  Config.xcconfig
+//  GymShim
+
+#include "Pods/Target Support Files/Pods-GymShim/Pods-GymShim.gstesting.xcconfig"
+
+BASE_URL = api-testing.gymshim.com/

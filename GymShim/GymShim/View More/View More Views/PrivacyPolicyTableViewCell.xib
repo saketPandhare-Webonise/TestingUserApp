@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ufonts.com_helvetica-medium_0.ttf">
+            <string>HelveticaMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PrivacyPolicyTableViewCell" selectionStyle="none" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="PrivacyPolicyTableViewCell" customModule="GymShim" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z6M-Hf-KGk">
+                        <frame key="frameInset" width="1000" height="1000"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="more_privacypolicy" translatesAutoresizingMaskIntoConstraints="NO" id="xgf-Cm-WBN">
+                                <frame key="frameInset" width="1000" height="1000"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="ng2-K0-vcI"/>
+                                    <constraint firstAttribute="height" constant="20" id="zH4-Mc-oEo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICK-1I-wUr">
+                                <frame key="frameInset" width="1000" height="1000"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="nsW-dH-tqf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaMedium" family="Helvetica Medium" pointSize="14"/>
+                                <color key="textColor" red="0.0039215686274509803" green="0.33333333333333331" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pBl-i5-IgE">
+                                <frame key="frameInset" width="1000" height="1000"/>
+                                <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="35Z-vl-x0T"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xgf-Cm-WBN" firstAttribute="leading" secondItem="z6M-Hf-KGk" secondAttribute="leading" constant="20" id="1ek-Lo-pbl"/>
+                            <constraint firstItem="ICK-1I-wUr" firstAttribute="centerY" secondItem="z6M-Hf-KGk" secondAttribute="centerY" id="A76-fz-Jvd"/>
+                            <constraint firstItem="pBl-i5-IgE" firstAttribute="leading" secondItem="z6M-Hf-KGk" secondAttribute="leading" constant="20" id="TtR-xB-cPP"/>
+                            <constraint firstItem="ICK-1I-wUr" firstAttribute="leading" secondItem="xgf-Cm-WBN" secondAttribute="trailing" constant="15" id="aAu-dA-Yex"/>
+                            <constraint firstAttribute="height" constant="50" id="bOk-Hm-vzL"/>
+                            <constraint firstItem="pBl-i5-IgE" firstAttribute="top" secondItem="z6M-Hf-KGk" secondAttribute="top" id="kez-wY-uAH"/>
+                            <constraint firstAttribute="trailing" secondItem="pBl-i5-IgE" secondAttribute="trailing" constant="20" id="pOD-Zv-DE9"/>
+                            <constraint firstItem="xgf-Cm-WBN" firstAttribute="centerY" secondItem="z6M-Hf-KGk" secondAttribute="centerY" id="w2u-je-oix"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="z6M-Hf-KGk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ScJ-QN-3CA"/>
+                    <constraint firstAttribute="bottom" secondItem="z6M-Hf-KGk" secondAttribute="bottom" id="tgb-bX-lyn"/>
+                    <constraint firstItem="z6M-Hf-KGk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="u4H-vd-jVB"/>
+                    <constraint firstAttribute="trailing" secondItem="z6M-Hf-KGk" secondAttribute="trailing" id="xsb-MJ-sjX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewMore" destination="xgf-Cm-WBN" id="z7s-7i-Ogr"/>
+                <outlet property="labelPrivacyPolicy" destination="ICK-1I-wUr" id="tdl-Dz-Ek6"/>
+            </connections>
+            <point key="canvasLocation" x="102" y="131"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more_privacypolicy" width="22" height="22"/>
+    </resources>
+</document>

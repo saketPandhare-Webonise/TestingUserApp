@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MoreDetailsTableViewCell" selectionStyle="none" indentationWidth="10" rowHeight="176" id="KGk-i7-Jjw" customClass="MoreDetailsTableViewCell" customModule="GymShim" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="175.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wvk-SC-dyS">
+                        <rect key="frame" x="10" y="10" width="300" height="165.5"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NUu-Rv-6P4">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="165.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="NUu-Rv-6P4" secondAttribute="bottom" id="6sc-hn-yYB"/>
+                            <constraint firstAttribute="trailing" secondItem="NUu-Rv-6P4" secondAttribute="trailing" id="n2L-KZ-7f8"/>
+                            <constraint firstItem="NUu-Rv-6P4" firstAttribute="top" secondItem="wvk-SC-dyS" secondAttribute="top" id="p06-zx-opW"/>
+                            <constraint firstItem="NUu-Rv-6P4" firstAttribute="leading" secondItem="wvk-SC-dyS" secondAttribute="leading" id="q3A-zR-TaO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="wvk-SC-dyS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0Pl-0i-x2T"/>
+                    <constraint firstAttribute="bottom" secondItem="wvk-SC-dyS" secondAttribute="bottom" id="RLw-uc-TV6"/>
+                    <constraint firstAttribute="trailing" secondItem="wvk-SC-dyS" secondAttribute="trailing" constant="10" id="SD8-sm-oTz"/>
+                    <constraint firstItem="wvk-SC-dyS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="b3h-7O-WXy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tableViewMoreDetails" destination="NUu-Rv-6P4" id="jy5-m7-EPY"/>
+                <outlet property="viewMoreDetails" destination="wvk-SC-dyS" id="mYF-bD-m2M"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="154"/>
+        </tableViewCell>
+    </objects>
+</document>

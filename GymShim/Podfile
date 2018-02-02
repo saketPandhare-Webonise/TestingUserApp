@@ -1,0 +1,46 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+def available_pods
+    use_frameworks!
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :tag => ‘3.5.0’
+    pod 'ObjectMapper', '~> 1.2'
+    pod 'SDWebImage', '3.8.0'
+    pod 'RealmSwift', '~> 1.1'
+    pod 'Toast-Swift', '~> 1.4.0'
+    pod 'IQKeyboardManagerSwift', '4.0.5'
+    pod 'JVFloatLabeledTextField'
+    pod 'EZSwiftExtensions', :git => 'https://github.com/goktugyil/EZSwiftExtensions.git', :branch => 'Swift2.3'
+    pod 'FSCalendar'
+    pod 'QRCode', '~> 1.0'
+    pod 'MIBadgeButton-Swift', :git => 'https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git', :branch => 'swift2'
+    pod 'ResponsiveLabel', '~> 1.0.11'
+    pod 'Google/Analytics'
+    pod 'Siren', :git => 'https://github.com/ArtSabintsev/Siren.git', :branch => 'swift2.3'
+    pod 'TTTAttributedLabel'
+end
+
+target 'GymShim' do
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    available_pods
+    # Pods for SweatBath
+    target 'GymShimTests' do
+        inherit! :search_paths
+        available_pods
+        # Pods for testing
+    end
+    
+    target 'GymShimUITests' do
+        inherit! :search_paths
+        available_pods
+        # Pods for testing
+    end
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '2.3'
+        end
+    end
+end

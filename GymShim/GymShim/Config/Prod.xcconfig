@@ -1,0 +1,7 @@
+//
+//  Prod.xcconfig
+//  GymShim
+
+#include "Pods/Target Support Files/Pods-GymShim/Pods-GymShim.gsproduction.xcconfig"
+
+BASE_URL = api.gymshim.com/ 

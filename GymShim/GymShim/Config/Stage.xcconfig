@@ -1,0 +1,7 @@
+//
+//  Stage.xcconfig
+//  GymShim
+
+#include "Pods/Target Support Files/Pods-GymShim/Pods-GymShim.gsstaging.xcconfig"
+
+BASE_URL = api-staging.gymshim.com/
